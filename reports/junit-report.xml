@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="visiting-the-website-and-updating-records;visit-the-php-travels-website" tests="1" failures="0" skipped="0">
+        <properties>
+            <property name="@visit" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Cyborg/Documents/Nodejs/node_modules/selenium-cucumber-js/features/phptravels-login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit phptravels website" classname="visiting-the-website-and-updating-records;visit-the-php-travels-website" time="0.002023316">
+        </testcase>
+    </testsuite>
+    <testsuite name="visiting-the-website-and-updating-records;login-to-your-account" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Cyborg/Documents/Nodejs/node_modules/selenium-cucumber-js/features/phptravels-login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit login page" classname="visiting-the-website-and-updating-records;login-to-your-account" time="14.279914089">
+        </testcase>
+        <testcase name="When I provide login credentials" classname="visiting-the-website-and-updating-records;login-to-your-account" time="0.002405201">
+        </testcase>
+        <testcase name="Then I should be redirected to my profile" classname="visiting-the-website-and-updating-records;login-to-your-account" time="0.386373397">
+        </testcase>
+        <testcase name="Then I should see Hi" classname="visiting-the-website-and-updating-records;login-to-your-account" time="6.315156749">
+        </testcase>
+    </testsuite>
+    <testsuite name="visiting-the-website-and-updating-records;edit-profile-details" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@editProfile" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Cyborg/Documents/Nodejs/node_modules/selenium-cucumber-js/features/phptravels-login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit login page" classname="visiting-the-website-and-updating-records;edit-profile-details" time="14.364251616">
+        </testcase>
+        <testcase name="When I provide login credentials" classname="visiting-the-website-and-updating-records;edit-profile-details" time="0.001970072">
+        </testcase>
+        <testcase name="Then I should be redirected to my profile" classname="visiting-the-website-and-updating-records;edit-profile-details" time="0.567503591">
+        </testcase>
+        <testcase name="Given I click My Profile button" classname="visiting-the-website-and-updating-records;edit-profile-details" time="6.083651688">
+        </testcase>
+        <testcase name="Given I edit my profile information" classname="visiting-the-website-and-updating-records;edit-profile-details" time="0.502647096">
+        </testcase>
+        <testcase name="Then I should see a message about successful updation" classname="visiting-the-website-and-updating-records;edit-profile-details" time="0.001596298">
+        </testcase>
+    </testsuite>
+    <testsuite name="visiting-the-website-and-updating-records;send-a-message" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@contact" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Cyborg/Documents/Nodejs/node_modules/selenium-cucumber-js/features/phptravels-login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit login page" classname="visiting-the-website-and-updating-records;send-a-message" time="12.559908573">
+        </testcase>
+        <testcase name="When I provide login credentials" classname="visiting-the-website-and-updating-records;send-a-message" time="0.004377035">
+        </testcase>
+        <testcase name="Then I should be redirected to my profile" classname="visiting-the-website-and-updating-records;send-a-message" time="0.572768869">
+        </testcase>
+        <testcase name="Given I click CONTACT button" classname="visiting-the-website-and-updating-records;send-a-message" time="7.053131274">
+        </testcase>
+        <testcase name="Given I input details and message and submit the message" classname="visiting-the-website-and-updating-records;send-a-message" time="2.662214054">
+        </testcase>
+        <testcase name="Then I should see a successful response" classname="visiting-the-website-and-updating-records;send-a-message" time="0.031855421">
+        </testcase>
+    </testsuite>
+    <testsuite name="visiting-the-website-and-updating-records;logout-from-your-account" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@logout" value="true">
+            </property>
+            <property name="URI" value="C:/Users/Cyborg/Documents/Nodejs/node_modules/selenium-cucumber-js/features/phptravels-login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit login page" classname="visiting-the-website-and-updating-records;logout-from-your-account" time="15.565960539">
+        </testcase>
+        <testcase name="When I provide login credentials" classname="visiting-the-website-and-updating-records;logout-from-your-account" time="0.002854788">
+        </testcase>
+        <testcase name="Then I should be redirected to my profile" classname="visiting-the-website-and-updating-records;logout-from-your-account" time="0.46087961">
+        </testcase>
+        <testcase name="Given I click dropdown" classname="visiting-the-website-and-updating-records;logout-from-your-account" time="5.690050346">
+        </testcase>
+        <testcase name="Given I click the Logout button" classname="visiting-the-website-and-updating-records;logout-from-your-account" time="0.000850864">
+        </testcase>
+        <testcase name="Then I should be redirected to login page" classname="visiting-the-website-and-updating-records;logout-from-your-account" time="0.00063859">
+        </testcase>
+    </testsuite>
+</testsuites>

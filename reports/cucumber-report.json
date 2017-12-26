@@ -1,0 +1,447 @@
+[
+  {
+    "description": "\tIn order to check test the functionality of website\n\tWebsite will be visited\n\tUser will login\n\tProfile data will be updated\n\tA message will be sent\n\tUser will logout",
+    "elements": [
+      {
+        "id": "visiting-the-website-and-updating-records;visit-the-php-travels-website",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Visit the PHP Travels website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit phptravels website",
+            "result": {
+              "status": "passed",
+              "duration": 2023316
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 24095996104
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@visit",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "visiting-the-website-and-updating-records;login-to-your-account",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login to your account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit login page",
+            "result": {
+              "status": "passed",
+              "duration": 14279914089
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I provide login credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2405201
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to my profile",
+            "result": {
+              "status": "passed",
+              "duration": 386373397
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see Hi",
+            "result": {
+              "status": "passed",
+              "duration": 6315156749
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:152"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2309936254
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "visiting-the-website-and-updating-records;edit-profile-details",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Edit Profile Details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit login page",
+            "result": {
+              "status": "passed",
+              "duration": 14364251616
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I provide login credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1970072
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to my profile",
+            "result": {
+              "status": "passed",
+              "duration": 567503591
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I click My Profile button",
+            "result": {
+              "status": "passed",
+              "duration": 6083651688
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:101"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I edit my profile information",
+            "result": {
+              "status": "passed",
+              "duration": 502647096
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see a message about successful updation",
+            "result": {
+              "status": "passed",
+              "duration": 1596298
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2229694020
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@editProfile",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "visiting-the-website-and-updating-records;send-a-message",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Send a message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit login page",
+            "result": {
+              "status": "passed",
+              "duration": 12559908573
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I provide login credentials",
+            "result": {
+              "status": "passed",
+              "duration": 4377035
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to my profile",
+            "result": {
+              "status": "passed",
+              "duration": 572768869
+            },
+            "line": 36,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I click CONTACT button",
+            "result": {
+              "status": "passed",
+              "duration": 7053131274
+            },
+            "line": 37,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I input details and message and submit the message",
+            "result": {
+              "status": "passed",
+              "duration": 2662214054
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see a successful response",
+            "result": {
+              "status": "passed",
+              "duration": 31855421
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 341865373
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "visiting-the-website-and-updating-records;logout-from-your-account",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Logout from your account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit login page",
+            "result": {
+              "status": "passed",
+              "duration": 15565960539
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I provide login credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2854788
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to my profile",
+            "result": {
+              "status": "passed",
+              "duration": 460879610
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I click dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 5690050346
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I click the Logout button",
+            "result": {
+              "status": "passed",
+              "duration": 850864
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to login page",
+            "result": {
+              "status": "passed",
+              "duration": 638590
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\step-definitions\\phptravels-login-steps.js:173"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2137327755
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Cyborg\\Documents\\Nodejs\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "visiting-the-website-and-updating-records",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Visiting the website and updating records",
+    "tags": [],
+    "uri": "C:/Users/Cyborg/Documents/Nodejs/node_modules/selenium-cucumber-js/features/phptravels-login.feature"
+  }
+]

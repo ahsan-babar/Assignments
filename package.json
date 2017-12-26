@@ -1,0 +1,315 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "selenium-cucumber-js",
+        "scope": null,
+        "escapedName": "selenium-cucumber-js",
+        "name": "selenium-cucumber-js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Cyborg\\Documents\\Nodejs\\Testing"
+    ]
+  ],
+  "_from": "selenium-cucumber-js@latest",
+  "_id": "selenium-cucumber-js@1.5.11",
+  "_inCache": true,
+  "_location": "/selenium-cucumber-js",
+  "_nodeVersion": "9.1.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/selenium-cucumber-js-1.5.11.tgz_1513330615584_0.6299962440971285"
+  },
+  "_npmUser": {
+    "name": "john-doherty",
+    "email": "contact@johndoherty.info"
+  },
+  "_npmVersion": "5.2.0",
+  "_phantomChildren": {
+    "adm-zip": "0.4.7",
+    "aws4": "1.6.0",
+    "camel-case": "3.0.0",
+    "chalk": "1.1.3",
+    "cli-table": "0.3.1",
+    "co": "4.6.0",
+    "combined-stream": "1.0.5",
+    "core-util-is": "1.0.2",
+    "debug": "2.2.0",
+    "deep-eql": "0.1.3",
+    "duration": "0.2.0",
+    "env-paths": "1.0.0",
+    "es6-promise": "4.0.5",
+    "escape-string-regexp": "1.0.5",
+    "extend": "3.0.1",
+    "forever-agent": "0.6.1",
+    "glob": "7.1.2",
+    "graceful-fs": "4.1.11",
+    "graceful-readlink": "1.0.1",
+    "hasha": "2.2.0",
+    "home-path": "1.0.5",
+    "inherits": "2.0.3",
+    "is-generator": "1.0.3",
+    "is-my-json-valid": "2.16.1",
+    "is-typedarray": "1.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "jsonfile": "2.4.0",
+    "jsprim": "1.4.1",
+    "kew": "0.7.0",
+    "klaw": "1.3.1",
+    "lodash": "4.17.4",
+    "mime-types": "2.1.17",
+    "mkdirp": "0.5.0",
+    "nugget": "2.0.1",
+    "oauth-sign": "0.8.2",
+    "path-is-absolute": "1.0.1",
+    "pinkie-promise": "2.0.1",
+    "process-nextick-args": "1.0.7",
+    "progress": "1.1.8",
+    "rc": "1.2.1",
+    "request-progress": "2.0.1",
+    "rimraf": "2.6.2",
+    "safe-buffer": "5.1.1",
+    "semver": "5.4.1",
+    "sshpk": "1.13.1",
+    "stringstream": "0.0.5",
+    "tmp": "0.0.30",
+    "tough-cookie": "2.3.3",
+    "typedarray": "0.0.6",
+    "util-deprecate": "1.0.2",
+    "which": "1.2.14",
+    "xml2js": "0.4.19",
+    "yauzl": "2.4.1"
+  },
+  "_requested": {
+    "raw": "selenium-cucumber-js",
+    "scope": null,
+    "escapedName": "selenium-cucumber-js",
+    "name": "selenium-cucumber-js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/selenium-cucumber-js/-/selenium-cucumber-js-1.5.11.tgz",
+  "_shasum": "38ecdcffc973ea2f677fcc3f563a80e6d096fc84",
+  "_shrinkwrap": null,
+  "_spec": "selenium-cucumber-js",
+  "_where": "C:\\Users\\Cyborg\\Documents\\Nodejs\\Testing",
+  "author": {
+    "name": "John Doherty",
+    "email": "contact@johndoherty.info",
+    "url": "https://courseof.life/johndoherty"
+  },
+  "bugs": {
+    "url": "https://github.com/john-doherty/selenium-cucumber-js/issues"
+  },
+  "dependencies": {
+    "chai": "3.5.0",
+    "chalk": "1.1.3",
+    "chromedriver": "^2.28.0",
+    "commander": "2.9.0",
+    "cucumber": "1.3.3",
+    "cucumber-html-reporter": "2.0.3",
+    "cucumber-junit": "1.6.0",
+    "electron": "^1.7.6",
+    "electron-chromedriver": "^1.7.1",
+    "electron-packager": "^9.1.0",
+    "electron-prebuilt": "^1.4.13",
+    "eyes.selenium": "0.0.72",
+    "fs-plus": "2.9.1",
+    "geckodriver": "1.1.2",
+    "merge": "1.2.0",
+    "phantomjs-prebuilt": "2.1.12",
+    "require-dir": "0.3.2",
+    "selenium-webdriver": "3.0.0"
+  },
+  "description": "JavaScript browser automation framework using official selenium-webdriver and cucumber-js",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-lRix8Q7cxy/dbCwD/Lbrftan3PqisJw9QTE5XrlDNFCtIYdKcGqaE/23kJwWlzN5C8NU1gvX9APFaJma1oAZ5Q==",
+    "shasum": "38ecdcffc973ea2f677fcc3f563a80e6d096fc84",
+    "tarball": "https://registry.npmjs.org/selenium-cucumber-js/-/selenium-cucumber-js-1.5.11.tgz"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "6.11.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "es6": false,
+      "browser": true
+    },
+    "globals": {
+      "selenium": true,
+      "helpers": true,
+      "page": true,
+      "driver": true,
+      "until": true,
+      "by": true,
+      "expect": true,
+      "Promise": true,
+      "browserName": true,
+      "DEFAULT_TIMEOUT": true
+    },
+    "rules": {
+      "brace-style": [
+        "error",
+        "stroustrup"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "func-names": 0,
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "max-len": [
+        2,
+        180,
+        4,
+        {
+          "ignoreUrls": true,
+          "ignoreComments": false
+        }
+      ],
+      "new-cap": [
+        "error",
+        {
+          "capIsNewExceptions": [
+            "Router",
+            "ObjectId",
+            "DEBUG"
+          ],
+          "properties": false
+        }
+      ],
+      "no-underscore-dangle": 0,
+      "no-unused-vars": [
+        "warn"
+      ],
+      "no-use-before-define": [
+        "error",
+        {
+          "functions": false
+        }
+      ],
+      "no-var": [
+        "off"
+      ],
+      "one-var": [
+        "off"
+      ],
+      "vars-on-top": [
+        "off"
+      ],
+      "no-param-reassign": [
+        "off"
+      ],
+      "no-lone-blocks": [
+        "off"
+      ],
+      "padded-blocks": 0,
+      "prefer-template": [
+        "off"
+      ],
+      "prefer-arrow-callback": [
+        "off"
+      ],
+      "default-case": [
+        "off"
+      ],
+      "wrap-iife": [
+        2,
+        "inside"
+      ],
+      "no-plusplus": [
+        "off"
+      ],
+      "require-jsdoc": [
+        "warn",
+        {
+          "require": {
+            "FunctionDeclaration": true,
+            "MethodDefinition": true,
+            "ClassDeclaration": true
+          }
+        }
+      ],
+      "object-shorthand": [
+        "error",
+        "never"
+      ],
+      "space-before-function-paren": "off",
+      "strict": "off",
+      "valid-jsdoc": [
+        "error"
+      ]
+    }
+  },
+  "gitHead": "1c5a3947c4614dea58fbfce824b9ce15b1384fa8",
+  "homepage": "https://github.com/john-doherty/selenium-cucumber-js#readme",
+  "keywords": [
+    "selenium",
+    "selenium bdd",
+    "cucumber",
+    "cucumber-js",
+    "webdriver",
+    "selenium-webdriver",
+    "chromedriver",
+    "phantomjs",
+    "testing",
+    "junit",
+    "bdd"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "john-doherty",
+      "email": "contact@johndoherty.info"
+    }
+  ],
+  "name": "selenium-cucumber-js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/john-doherty/selenium-cucumber-js.git"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "version": "1.5.11",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.11.0"
+      },
+      "pkgid": "selenium-cucumber-js@1.5.11"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.11.0"
+      },
+      "pkgid": "selenium-cucumber-js@1.5.11"
+    }
+  ]
+}
